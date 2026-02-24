@@ -281,7 +281,7 @@ public class Main {
                 case 7:
                     sauvegarderStock();
                     System.out.println("Au revoir !");
-                    return; // ✅ mieux que System.exit(0)
+                    return;
 
                 default:
                     System.out.println("Choix invalide.");
